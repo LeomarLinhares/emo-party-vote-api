@@ -8,7 +8,6 @@ import db from './db.js';
 const app = new Hono();
 
 // Middlewares
-app.use('*', cors());
 app.use('*', logger());
 
 // Schemas de validação
